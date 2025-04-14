@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROTOPLEX | Eco-Friendly 3D Printing Solutions</title>
+    <style>
+        :root {
+            --primary-green: #2E8B57;
+            --accent-blue: #4682B4;
+            --light-gray: #F5F5F5;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            line-height: 1.6;
+        }
+        .navbar {
+            background: var(--primary-green);
+            padding: 1rem;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    .hero {
+    background-color: #2d2d2d; /* Dark gray color */
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center; /* Vertical centering */
+    justify-content: center; /* Horizontal centering */
+    text-align: center;
+    padding: 2rem;
+}
+
+.hero-content {
+    max-width: 800px;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-content h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+.hero-content p {
+    font-size: 1.3rem;
+    margin-bottom: 2.5rem;
+    opacity: 0.9;
+}
+        .product-card {
+            border: 1px solid #ddd;
+            padding: 2rem;
+            margin: 2rem auto;
+            border-radius: 10px;
+            max-width: 800px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .product-image {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            margin: 1rem 0;
+            border-radius: 8px;
+        }
+       .cta-button {
+    background-color: #2E8B57; /* Your brand green */
+    color: white;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.cta-button:hover {
+    transform: translateY(-3px);
+}
+        footer {
+            background: var(--primary-green);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+        @media (max-width: 768px) {
+            .hero {
+                height: 50vh;
+            }
+            .product-card {
+                margin: 1rem;
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <h1 style="margin: 0;">PROTOPLEX</h1>
+        <div>
+            <a href="#products" style="color: white; text-decoration: none; margin: 0 1rem;">Products</a>
+            <a href="#sustainability" style="color: white; text-decoration: none; margin: 0 1rem;">Sustainability</a>
+            <a href="#services" style="color: white; text-decoration: none; margin: 0 1rem;">Services</a>
+        </div>
+    </nav>
+
+   <!-- Hero Section -->
+<div class="hero">
+    <div class="hero-text" style="width: 100%; height: 100%;">
+        <h2 style="font-size: 2.5rem; margin: 0 0 1rem 0;">Transform Plastic Waste into Innovation</h2>
+        <p style="font-size: 1.2rem;">Eco-friendly 3D printing solutions for a sustainable future</p>
+        <button class="cta-button">Explore Our Printers</button>
+    </div>
+</div>
+
+<style>
+.hero {
+    background: linear-gradient(rgba(96, 96, 96, 0.95), rgba(96, 96, 96, 0.95)),
+                url('your-background-image.jpg') center/cover;
+    height: 100vh;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.hero-text {
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+</style>
+
+    <!-- Products Section -->
+    <div class="section" id="products">
+        <h2 style="text-align: center; font-size: 2rem;">Our 3D Printers</h2>
+
+        <!-- BLU i10NJ -->
+        <div class="product-card">
+            <img src="C:\Users\ragha\Downloads\Picture1.png" alt="PROTOPLEX BLU i10NJ Large 3D Printer" class="product-image"  style="width: 100%; max-width: 300px; height: 300px;"
+>
+            <h3>BLU i10NJ - Large Format Printer</h3>
+            <ul>
+                <li>Build Volume: 500 × 500 × 700 mm</li>
+                <li>4.3-inch Touchscreen Interface</li>
+                <li>Dual Extruder System</li>
+                <li>Price: ₹24,500 (Tax Included)</li>
+            </ul>
+            <button class="cta-button">Custom Order Now</button>
+        </div>
+
+        <!-- BLU i5NJ -->
+        <div class="product-card">
+            <img src="C:\Users\ragha\Downloads\Picture4.jpg" alt="PROTOPLEX BLU i5NJ Medium 3D Printer" class="product-image"  style="width: 100%; max-width: 300px; height: 300px;"
+>
+            <h3>BLU i5NJ - Medium Format Printer</h3>
+            <ul>	
+                <li>Build Volume: 300 × 300 × 400 mm</li>
+                <li>Semi-Assembled for Quick Setup</li>
+                <li>2.8-inch Touchscreen Interface</li>
+                <li>Price: ₹14,500 (Tax Included)</li>
+            </ul>
+            <button class="cta-button">Custom Order Now</button>
+        </div>
+    </div>
+
+    <!-- Sustainability Section -->
+    <div class="section" id="sustainability" style="background: var(--light-gray);">
+        <h2 style="text-align: center; font-size: 2rem;">Our Sustainable Advantage</h2>
+        <div style="max-width: 800px; margin: 0 auto;">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 2rem;">
+                <div>
+                    <h3>♻️ 100% Recycled Filament</h3>
+                    <p>All printers use filament made from post-consumer plastic waste</p>
+                </div>
+                <div>
+                    <h3>🏭 Recycling Partnerships</h3>
+                    <p>Direct partnerships with recycling plants across India</p>
+                </div>
+                <div>
+                    <h3>📉 Cost Efficient</h3>
+                    <p>15% cheaper than conventional 3D printing materials</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="section" id="services">
+        <h2 style="text-align: center; font-size: 2rem;">Additional Services</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 2rem;">
+            <div class="product-card">
+                <h3>Custom Filament Supply</h3>
+                <p>Available in 12 colors and 3 material types</p>
+                <p>₹1,500/kg (minimum 5kg order)</p>
+            </div>
+            <div class="product-card">
+                <h3>Professional Training</h3>
+                <p>On-site workshops for schools and businesses</p>
+                <p>Includes sustainable manufacturing curriculum</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>📧 Contact: contact@protoplex.in</p>
+        <p>📍 Registered Office: Mumbai, India</p>
+        <p>♻️ Partner with us to reduce plastic waste!</p>
+    </footer>
+</body>
+</html>
